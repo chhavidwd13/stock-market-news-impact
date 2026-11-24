@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+
+# Local datasets and generated/intermediate files
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# Notebook checkpoints and local runtime output
+.ipynb_checkpoints/
+.streamlit/secrets.toml
